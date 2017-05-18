@@ -196,4 +196,3 @@ struct crtpLinkOperations * wifilinkGetLink()
 {
   return &wifilinkOp;
 }
-

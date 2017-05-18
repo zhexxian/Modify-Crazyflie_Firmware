@@ -51,11 +51,12 @@ void commInit(void)
 {
   if (isInit)
     return;
+
 // Add uart2 init
 uart2Init(57600);
+
 // Add wifi init
 wifilinkInit();
-
 #ifdef PLATFORM_CF1
   #ifdef USE_ESKYLINK
     eskylinkInit();
@@ -82,7 +83,7 @@ wifilinkInit();
 #endif
 */
 
-  crtpSetLink(wifilinkGetLink());
+crtpSetLink(wifilinkGetLink());
 
   crtpserviceInit();
 #ifdef PLATFORM_CF2
