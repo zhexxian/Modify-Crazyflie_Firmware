@@ -1,14 +1,12 @@
 power_distribution_stock.o: src/modules/src/power_distribution_stock.c \
  src/modules/interface/power_distribution.h \
  src/modules/interface/stabilizer_types.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include\stdint.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\stdint.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\machine\_default_types.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\features.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\_newlib_version.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\_intsup.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\_stdint.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include\stdbool.h \
+ /home/bitcraze/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h \
+ /home/bitcraze/arm-none-eabi/include/stdint.h \
+ /home/bitcraze/arm-none-eabi/include/machine/_default_types.h \
+ /home/bitcraze/arm-none-eabi/include/sys/features.h \
+ /home/bitcraze/arm-none-eabi/include/sys/_intsup.h \
+ /home/bitcraze/lib/gcc/arm-none-eabi/4.9.3/include/stdbool.h \
  src/hal/interface/imu_types.h src/modules/interface/log.h \
  src/modules/interface/param.h src/utils/interface/num.h \
  src/drivers/interface/motors.h src/config/config.h \
@@ -53,21 +51,17 @@ src/modules/interface/power_distribution.h:
 
 src/modules/interface/stabilizer_types.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include\stdint.h:
+/home/bitcraze/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\stdint.h:
+/home/bitcraze/arm-none-eabi/include/stdint.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\machine\_default_types.h:
+/home/bitcraze/arm-none-eabi/include/machine/_default_types.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\features.h:
+/home/bitcraze/arm-none-eabi/include/sys/features.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\_newlib_version.h:
+/home/bitcraze/arm-none-eabi/include/sys/_intsup.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\_intsup.h:
-
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\_stdint.h:
-
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include\stdbool.h:
+/home/bitcraze/lib/gcc/arm-none-eabi/4.9.3/include/stdbool.h:
 
 src/hal/interface/imu_types.h:
 

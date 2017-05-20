@@ -1,14 +1,12 @@
 exti.o: src/drivers/src/exti.c \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include\stdbool.h \
+ /home/bitcraze/lib/gcc/arm-none-eabi/4.9.3/include/stdbool.h \
  src/config/stm32fxxx.h src/lib/CMSIS/STM32F4xx/Include/stm32f4xx.h \
  vendor/CMSIS/CMSIS/Include/core_cm4.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include\stdint.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\stdint.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\machine\_default_types.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\features.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\_newlib_version.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\_intsup.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\_stdint.h \
+ /home/bitcraze/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h \
+ /home/bitcraze/arm-none-eabi/include/stdint.h \
+ /home/bitcraze/arm-none-eabi/include/machine/_default_types.h \
+ /home/bitcraze/arm-none-eabi/include/sys/features.h \
+ /home/bitcraze/arm-none-eabi/include/sys/_intsup.h \
  vendor/CMSIS/CMSIS/Include/core_cmInstr.h \
  vendor/CMSIS/CMSIS/Include/cmsis_gcc.h \
  vendor/CMSIS/CMSIS/Include/core_cmFunc.h \
@@ -44,7 +42,7 @@ exti.o: src/drivers/src/exti.c \
  src/drivers/interface/exti.h src/config/nvicconf.h \
  src/drivers/interface/nrf24l01.h src/drivers/interface/nRF24L01reg.h
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include\stdbool.h:
+/home/bitcraze/lib/gcc/arm-none-eabi/4.9.3/include/stdbool.h:
 
 src/config/stm32fxxx.h:
 
@@ -52,19 +50,15 @@ src/lib/CMSIS/STM32F4xx/Include/stm32f4xx.h:
 
 vendor/CMSIS/CMSIS/Include/core_cm4.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include\stdint.h:
+/home/bitcraze/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\stdint.h:
+/home/bitcraze/arm-none-eabi/include/stdint.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\machine\_default_types.h:
+/home/bitcraze/arm-none-eabi/include/machine/_default_types.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\features.h:
+/home/bitcraze/arm-none-eabi/include/sys/features.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\_newlib_version.h:
-
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\_intsup.h:
-
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\_stdint.h:
+/home/bitcraze/arm-none-eabi/include/sys/_intsup.h:
 
 vendor/CMSIS/CMSIS/Include/core_cmInstr.h:
 

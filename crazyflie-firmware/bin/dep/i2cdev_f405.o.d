@@ -1,20 +1,18 @@
 i2cdev_f405.o: src/drivers/src/i2cdev_f405.c \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include\stdint.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\stdint.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\machine\_default_types.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\features.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\_newlib_version.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\_intsup.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\_stdint.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include\stdbool.h \
+ /home/bitcraze/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h \
+ /home/bitcraze/arm-none-eabi/include/stdint.h \
+ /home/bitcraze/arm-none-eabi/include/machine/_default_types.h \
+ /home/bitcraze/arm-none-eabi/include/sys/features.h \
+ /home/bitcraze/arm-none-eabi/include/sys/_intsup.h \
+ /home/bitcraze/lib/gcc/arm-none-eabi/4.9.3/include/stdbool.h \
  src/lib/FreeRTOS/include/FreeRTOS.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include\stddef.h \
+ /home/bitcraze/lib/gcc/arm-none-eabi/4.9.3/include/stddef.h \
  src/config/FreeRTOSConfig.h src/config/config.h \
  src/drivers/interface/nrf24l01.h src/drivers/interface/nRF24L01reg.h \
  src/config/trace.h src/hal/interface/usec_time.h \
  src/utils/interface/cfassert.h src/modules/interface/console.h \
  src/utils/interface/eprintf.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include\stdarg.h \
+ /home/bitcraze/lib/gcc/arm-none-eabi/4.9.3/include/stdarg.h \
  src/lib/FreeRTOS/include/projdefs.h src/lib/FreeRTOS/include/portable.h \
  src/lib/FreeRTOS/include/deprecated_definitions.h \
  src/lib/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h \
@@ -60,25 +58,21 @@ i2cdev_f405.o: src/drivers/src/i2cdev_f405.c \
  src/drivers/interface/i2c_drv.h src/config/nvicconf.h \
  src/utils/interface/debug.h src/config/config.h
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include\stdint.h:
+/home/bitcraze/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\stdint.h:
+/home/bitcraze/arm-none-eabi/include/stdint.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\machine\_default_types.h:
+/home/bitcraze/arm-none-eabi/include/machine/_default_types.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\features.h:
+/home/bitcraze/arm-none-eabi/include/sys/features.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\_newlib_version.h:
+/home/bitcraze/arm-none-eabi/include/sys/_intsup.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\_intsup.h:
-
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\_stdint.h:
-
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include\stdbool.h:
+/home/bitcraze/lib/gcc/arm-none-eabi/4.9.3/include/stdbool.h:
 
 src/lib/FreeRTOS/include/FreeRTOS.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include\stddef.h:
+/home/bitcraze/lib/gcc/arm-none-eabi/4.9.3/include/stddef.h:
 
 src/config/FreeRTOSConfig.h:
 
@@ -98,7 +92,7 @@ src/modules/interface/console.h:
 
 src/utils/interface/eprintf.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include\stdarg.h:
+/home/bitcraze/lib/gcc/arm-none-eabi/4.9.3/include/stdarg.h:
 
 src/lib/FreeRTOS/include/projdefs.h:
 

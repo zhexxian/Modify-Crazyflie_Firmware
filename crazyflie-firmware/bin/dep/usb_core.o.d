@@ -1,17 +1,15 @@
 usb_core.o: src/lib/STM32_USB_OTG_Driver/src/usb_core.c \
  src/lib/STM32_USB_OTG_Driver/inc/usb_core.h src/hal/interface/usb_conf.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\cdefs.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\machine\_default_types.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\features.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\_newlib_version.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include\stddef.h \
+ /home/bitcraze/arm-none-eabi/include/sys/cdefs.h \
+ /home/bitcraze/arm-none-eabi/include/machine/_default_types.h \
+ /home/bitcraze/arm-none-eabi/include/sys/features.h \
+ /home/bitcraze/lib/gcc/arm-none-eabi/4.9.3/include/stddef.h \
  src/lib/STM32_USB_OTG_Driver/inc/usb_regs.h \
  src/lib/CMSIS/STM32F4xx/Include/stm32f4xx.h \
  vendor/CMSIS/CMSIS/Include/core_cm4.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include\stdint.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\stdint.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\_intsup.h \
- c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\_stdint.h \
+ /home/bitcraze/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h \
+ /home/bitcraze/arm-none-eabi/include/stdint.h \
+ /home/bitcraze/arm-none-eabi/include/sys/_intsup.h \
  vendor/CMSIS/CMSIS/Include/core_cmInstr.h \
  vendor/CMSIS/CMSIS/Include/cmsis_gcc.h \
  vendor/CMSIS/CMSIS/Include/core_cmFunc.h \
@@ -52,15 +50,13 @@ src/lib/STM32_USB_OTG_Driver/inc/usb_core.h:
 
 src/hal/interface/usb_conf.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\cdefs.h:
+/home/bitcraze/arm-none-eabi/include/sys/cdefs.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\machine\_default_types.h:
+/home/bitcraze/arm-none-eabi/include/machine/_default_types.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\features.h:
+/home/bitcraze/arm-none-eabi/include/sys/features.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\_newlib_version.h:
-
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include\stddef.h:
+/home/bitcraze/lib/gcc/arm-none-eabi/4.9.3/include/stddef.h:
 
 src/lib/STM32_USB_OTG_Driver/inc/usb_regs.h:
 
@@ -68,13 +64,11 @@ src/lib/CMSIS/STM32F4xx/Include/stm32f4xx.h:
 
 vendor/CMSIS/CMSIS/Include/core_cm4.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include\stdint.h:
+/home/bitcraze/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\stdint.h:
+/home/bitcraze/arm-none-eabi/include/stdint.h:
 
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\_intsup.h:
-
-c:\program\ files\ (x86)\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\_stdint.h:
+/home/bitcraze/arm-none-eabi/include/sys/_intsup.h:
 
 vendor/CMSIS/CMSIS/Include/core_cmInstr.h:
 
