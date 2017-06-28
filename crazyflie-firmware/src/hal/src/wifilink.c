@@ -47,6 +47,7 @@ static uint8_t crcIndex = 0;
 static enum { notSentSecondStart, sentSecondStart} txState;
 
 static bool isInit;
+static bool LEDstate = 0;
 
 static int wifilinkSendCRTPPacket(CRTPPacket *p);
 static int wifilinkSetEnable(bool enable);
@@ -136,6 +137,16 @@ void uartWiFiRxTask(void *param)
           if (crc == c)
           {
             xQueueSend(crtpPacketDelivery, &p, 0);
+            if(LEDstate == 0)
+            {
+            	LEDstate = 1;
+            	ledSet(LED_GREEN_L, LEDstate);
+            }
+            else
+            {
+            	LEDstate = 0;
+            	ledSet(LED_GREEN_L, LEDstate);
+            }
           }
           rxState = waitForFirstStart;
           break;
